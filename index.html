@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pe☆rappella — 東京理科大学アカペラサークル</title>
+    <meta
+      name="description"
+      content="東京理科大学神楽坂キャンパスを中心に活動するアカペラサークル Pe☆rappella の公式サイト。サークル紹介・年間予定・ライブ情報・FAQ。"
+    />
+    <link rel="icon" href="assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&family=Noto+Serif+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Pe☆rappella ホーム">
+        <img src="assets/logo.png" alt="Pe☆rappella ロゴ" class="brand__logo" />
+        <span class="brand__name">Pe<span class="brand__star">☆</span>rappella</span>
+      </a>
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-label="メニューを開く" />
+      <label for="nav-toggle" class="nav-toggle__btn" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="nav" aria-label="メインナビゲーション">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#info">Info</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#live">Live</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero__inner">
+          <div class="hero__logo-wrap">
+            <img src="assets/logo.png" alt="" class="hero__logo" />
+          </div>
+          <div class="hero__text">
+            <p class="hero__eyebrow"><span class="note">♪</span> Tokyo University of Science · A Cappella Circle</p>
+            <h1 class="hero__title">
+              Pe<span class="hero__star">☆</span>rappella
+            </h1>
+            <p class="hero__sub">東京理科大学アカペラサークル</p>
+            <p class="hero__loc">— 神楽坂キャンパス —</p>
+            <a class="hero__cta" href="#about">スクロールして覗いてみる</a>
+          </div>
+          <div class="hero__record" aria-hidden="true"></div>
+        </div>
+        <div class="wave" aria-hidden="true"></div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section section--about reveal">
+        <p class="section__kicker"><span class="note">♪</span> About</p>
+        <h2 class="section__title">サークルについて</h2>
+        <blockquote class="quote">
+          <span class="quote__mark" aria-hidden="true">&ldquo;</span>
+          <p>
+            こんにちは！アカペラサークル <strong>Pe☆rappella</strong> です！
+          </p>
+          <p>
+            Pe☆rappella は、東京理科大学神楽坂キャンパスを中心に活動するサークルです。
+            毎週火曜日に全体会を行い、部員それぞれがサークルライブや他大学との合同ライブに向けて日々練習しています。
+          </p>
+          <p>
+            全体会以外の練習日はバンドごとに決めるので、活動頻度は人それぞれ。
+            アカペラに打ち込みたい人も、忙しい人も楽しめるサークルです。
+          </p>
+          <p class="quote__last">様々なジャンルの音楽をぜひ一緒に楽しみましょう。</p>
+        </blockquote>
+      </section>
+
+      <!-- Basic Info & SNS -->
+      <section id="info" class="section section--info reveal">
+        <p class="section__kicker"><span class="note">♪</span> Info</p>
+        <h2 class="section__title">基本情報</h2>
+        <dl class="info-list">
+          <div>
+            <dt>サークル名</dt>
+            <dd>東京理科大学アカペラサークル Pe☆rappella</dd>
+          </div>
+          <div>
+            <dt>活動場所</dt>
+            <dd>東京理科大学 神楽坂キャンパス</dd>
+          </div>
+          <div>
+            <dt>活動日</dt>
+            <dd>全体会：毎週火曜 ／ バンド練習：各バンドごと</dd>
+          </div>
+          <div>
+            <dt>年会費</dt>
+            <dd>1,500円</dd>
+          </div>
+        </dl>
+
+        <h3 class="subtitle">公式アカウント</h3>
+        <ul class="sns">
+          <li>
+            <a class="sns-card" href="https://www.instagram.com/perappella/" target="_blank" rel="noopener">
+              <svg class="sns-card__icon" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.6" />
+                <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6" />
+                <circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" />
+              </svg>
+              <span class="sns-card__label">Instagram</span>
+              <span class="sns-card__handle">@perappella</span>
+            </a>
+          </li>
+          <li>
+            <a class="sns-card" href="https://x.com/Perappella2012?s=20" target="_blank" rel="noopener">
+              <svg class="sns-card__icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 4 L11 13 L4 20 H7 L13 14 L18 20 H21 L13.5 11 L20.5 4 H17.5 L12 9.5 L7 4 Z" fill="currentColor" />
+              </svg>
+              <span class="sns-card__label">X (Twitter)</span>
+              <span class="sns-card__handle">@Perappella2012</span>
+            </a>
+          </li>
+          <li>
+            <a class="sns-card" href="https://www.youtube.com/channel/UCTywB4dYEXE4R_FDQgldMyA" target="_blank" rel="noopener">
+              <svg class="sns-card__icon" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="2" y="5" width="20" height="14" rx="3" ry="3" fill="none" stroke="currentColor" stroke-width="1.6" />
+                <path d="M10 9 L16 12 L10 15 Z" fill="currentColor" />
+              </svg>
+              <span class="sns-card__label">YouTube</span>
+              <span class="sns-card__handle">公式チャンネル</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Schedule -->
+      <section id="schedule" class="section section--schedule reveal">
+        <p class="section__kicker"><span class="note">♪</span> Annual Schedule</p>
+        <h2 class="section__title">サークルの年間予定</h2>
+        <ol class="timeline">
+          <li>
+            <span class="timeline__month">April</span>
+            <span class="timeline__jp">4月</span>
+            <p class="timeline__body">新歓</p>
+          </li>
+          <li>
+            <span class="timeline__month">May</span>
+            <span class="timeline__jp">5月</span>
+            <p class="timeline__body">新サークル員仮入会</p>
+          </li>
+          <li>
+            <span class="timeline__month">June</span>
+            <span class="timeline__jp">6月</span>
+            <p class="timeline__body">新サークル員ライブ／新サークル本入会</p>
+          </li>
+          <li>
+            <span class="timeline__month">August</span>
+            <span class="timeline__jp">8月</span>
+            <p class="timeline__body">サークルライブ／ボイチャペラ（野田・葛飾・神楽坂アカペラサークル合同ライブ）</p>
+          </li>
+          <li>
+            <span class="timeline__month">September</span>
+            <span class="timeline__jp">9月</span>
+            <p class="timeline__body">合宿</p>
+          </li>
+          <li>
+            <span class="timeline__month">October</span>
+            <span class="timeline__jp">10月</span>
+            <p class="timeline__body">ハロウィンパーティー／秋ライブ</p>
+          </li>
+          <li>
+            <span class="timeline__month">November</span>
+            <span class="timeline__jp">11月</span>
+            <p class="timeline__body">理大祭</p>
+          </li>
+          <li>
+            <span class="timeline__month">December</span>
+            <span class="timeline__jp">12月</span>
+            <p class="timeline__body">冬ライブ</p>
+          </li>
+          <li>
+            <span class="timeline__month">March</span>
+            <span class="timeline__jp">3月</span>
+            <p class="timeline__body">卒業ライブ／卒業式の校歌斉唱</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Live -->
+      <section id="live" class="section section--live reveal">
+        <p class="section__kicker"><span class="note">♪</span> Live Info</p>
+        <h2 class="section__title">ライブ情報</h2>
+        <article class="ticket">
+          <div class="ticket__stub">
+            <p class="ticket__label">Circle Live</p>
+            <p class="ticket__date">8/23<span>SUN</span></p>
+          </div>
+          <div class="ticket__body">
+            <h3 class="ticket__title">サークルライブ</h3>
+            <dl class="ticket__meta">
+              <div>
+                <dt>会場</dt>
+                <dd>鶴見区民文化センター サルビアホール</dd>
+              </div>
+              <div>
+                <dt>住所</dt>
+                <dd>〒230-0051 神奈川県横浜市鶴見区鶴見中央１丁目３１−２</dd>
+              </div>
+            </dl>
+            <p class="ticket__note">
+              最新情報は Instagram / X の Pe☆rappella 公式アカウントにて随時発信中。ぜひご確認ください。
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section section--faq reveal">
+        <p class="section__kicker"><span class="note">♪</span> FAQ</p>
+        <h2 class="section__title">よくある質問</h2>
+        <div class="faq">
+          <details>
+            <summary>Q. 兼サー可能ですか？</summary>
+            <p>可能です。軽音サークルや RFC（理大祭実行委員会）などと兼サーしているサークル員もいます。</p>
+          </details>
+          <details>
+            <summary>Q. 理学部第二部でも入れますか？</summary>
+            <p>可能です。実際に理学部第二部のサークル員も在籍しています。</p>
+          </details>
+          <details>
+            <summary>Q. ２年生でも入会できますか？</summary>
+            <p>可能です。2年生から入会しても、他のサークル員と同じようにさまざまな活動に参加できます。</p>
+          </details>
+          <details>
+            <summary>Q. 入会費はいくらですか？</summary>
+            <p>年会費 1,500円 です。</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <p class="footer__brand">Pe<span>☆</span>rappella</p>
+        <p class="footer__sub">東京理科大学アカペラサークル — 神楽坂キャンパス</p>
+        <ul class="footer__sns">
+          <li><a href="https://www.instagram.com/perappella/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://x.com/Perappella2012?s=20" target="_blank" rel="noopener">X</a></li>
+          <li><a href="https://www.youtube.com/channel/UCTywB4dYEXE4R_FDQgldMyA" target="_blank" rel="noopener">YouTube</a></li>
+        </ul>
+        <p class="footer__copy">&copy; Pe☆rappella · Tokyo University of Science</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
